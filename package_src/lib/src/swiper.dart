@@ -103,6 +103,7 @@ class RectangleSwiperIndicator extends _SwiperIndicator {
     Color itemColor = Colors.white70,
     Color itemActiveColor,
   }) : super(
+            padding: padding,
             spacing: spacing,
             itemColor: itemColor,
             itemWidth: itemWidth,
